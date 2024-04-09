@@ -433,7 +433,7 @@ button {
     margin-bottom: 50px;
 }
 .tab__list {
-    display: flex;
+    display: inline-flex;
     column-gap: 56px;
     position: relative;
 }
