@@ -546,6 +546,17 @@ button {
     font-style: normal;
     font-weight: 600;
     line-height: 1; /* 100% */
+    display: flex;
+    align-items: center;
+}
+.service-item__heading::before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 22px;
+    background: linear-gradient(90deg, #ff5b2e 0.39%, #ffa187 100.29%);
+    border-radius: 1px;
+    margin-right: 12px;
 }
 .service-item__desc {
     margin-top: 18px;
