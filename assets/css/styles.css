@@ -717,3 +717,76 @@ button {
     min-width: 193px;
     color: #ff5b2e;
 }
+/* pricing */
+.pricing {
+    padding: 86px 0;
+    background: #fff6ed;
+}
+.pricing__heading,
+.pricing__desc {
+    text-align: center;
+}
+.pricing__desc {
+    width: 709px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pricing__swicth-wrap {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+}
+.pricing__swicth-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 276px;
+    height: 56px;
+    padding: 0 40px;
+    border-radius: 99px;
+    border: 1px solid #ff5b2e99;
+    position: relative;
+    user-select: none;
+    cursor: pointer;
+}
+.pricing__swicth-label::before {
+    content: "";
+    position: absolute;
+    width: 140px;
+    height: 100%;
+    border-radius: inherit;
+    background: #ff5b2e;
+    top: 0;
+    left: 0;
+}
+.pricing__switch-value {
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1; /* 100% */
+    position: relative;
+    z-index: 1;
+}
+.pricing__switch-input:checked + .pricing__swicth-label::before {
+    left: auto;
+    right: 0;
+    width: 131px;
+}
+.pricing__switch-input:not(:checked)
+    + .pricing__swicth-label
+    .pricing__switch-value:nth-of-type(2),
+.pricing__switch-input:checked
+    + .pricing__swicth-label
+    .pricing__switch-value:nth-of-type(1) {
+    color: #ff5b2e;
+}
+.pricing__swicth-inner {
+    position: relative;
+}
+.pricing__sale-off {
+    position: absolute;
+    right: -112px;
+    top: -10px;
+}
