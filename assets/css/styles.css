@@ -33,11 +33,11 @@ button {
     font-size: inherit;
     font-family: inherit;
 }
-.container {
+/* .container {
     width: 1170px;
     max-width: calc(100% - 48px);
     margin: 0 auto;
-}
+} */
 .btn {
     --height: 56px;
     display: inline-flex;
@@ -125,10 +125,10 @@ button {
     margin-top: 74px;
 }
 .hero__inner {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
-    column-gap: 120px;
+    /* column-gap: 120px; */
 }
 .hero__media {
     display: flex;
