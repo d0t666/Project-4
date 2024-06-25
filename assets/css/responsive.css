@@ -115,6 +115,14 @@
 /* Small devices (phones, 0px and up) */
 @media (max-width: 575.98px) {
     /* CSS rules for small devices */
+    /* hero */
+    .hero__img-wrap {
+        width: 90%;
+        height: 50vh;
+    }
+    .hero__media {
+        justify-content: center;
+    }
     .about__heading,
     .about__desc {
         width: 100%;
