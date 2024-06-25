@@ -143,11 +143,18 @@
                         <!-- Hero media -->
                         <div class="hero__media">
                             <div class="hero__img-wrap">
-                                <img
-                                    src="./assets/img/pet01.png"
-                                    alt=""
-                                    class="hero__img"
-                                />
+                                <picture>
+                                    <source
+                                        media="(max-width: 600px)"
+                                        srcset="./assets/img/pet01x400.png"
+                                    />
+                                    <img
+                                        src="./assets/img/pet01.png"
+                                        alt="anh pet"
+                                        class="hero__img"
+                                    />
+                                </picture>
+
                                 <!-- decor -->
                                 <img
                                     src="./assets/img/decor-01.svg"
